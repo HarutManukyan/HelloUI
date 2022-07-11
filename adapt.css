@@ -1,60 +1,39 @@
 @media(max-width:1000px){
-    .container{
-        margin:0 50x;
+    .review__cell{
+        color: #050038;
+        max-width: 200px;
+        max-height: 150px;
+        font-size: 14px;
+        margin: 100px 25px;
+        position: relative;
+        
     }
-/*     .cell{
-        width: 140px;
+    .review__logo{
+        max-width: 30px;
+        max-height: 30px;
     }
-    .imgg{
-        width: 130px;
+    .review__cell-username{
+        color: #596068;display: flex;
+        width: 30px;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        font-size: 12px;
     }
-    .text{
-        width: 120px;
+    .review__cell-username{
+        width: 60px;
     }
-    .footer__text{
-        width:200px;
-    }
-    
-    .btn2{
-        padding: 10px 28px;
-    }
-    /* .content__btn1{
-        display: flex;
-    } */ */
 }
-/* @media(max-width:835px){
-    .container{
-        max-width: 600px;
+
+
+@media(max-width:500px){
+    .review__block{
+        flex-wrap: wrap;
+        margin: 0 auto;
     }
-    .cell{
-        width: 130px;
-    }
-    .imgg{
-        width: 120px;
-    }
-    .text{
-        width: 110px;
-    }
-    .footer__text{
-        width:150px;
-    }
+}
+
+
+@media(max-width:370px) {
     
 }
-@media(max-width:620px) {
-    .container{
-        max-width: none;
-    }
-    .cell{
-        width: none;
-    }
-    .imgg{
-        width: none;
-    }
-    .text{
-        width: none;
-    }
-    .footer__text{
-        width:none;
-    }
-    
-} */
