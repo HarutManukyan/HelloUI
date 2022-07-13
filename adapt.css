@@ -1,0 +1,86 @@
+
+@media(max-width:1000px){
+    .review__block{
+        grid-template-columns: repeat(2, 350px);
+        justify-content: center;
+    }
+    .review__title{
+        font-size: 58px;
+    }
+    .header{
+        margin: 0 50px;
+    }
+    .list__item{
+        margin: 0 15px;
+    }
+    .example{
+        padding: 0 50px;
+    }
+    .exampleimg{
+        max-width: 500px;
+        margin: 50px 0;
+    }
+    .column1{
+        max-width: 150px;
+        height: 400px;
+    }
+    .column2{
+        max-width: 150px;
+        height: 400px;
+    }
+    .carousel{
+        max-width: 740px;
+        max-height: 250px;
+    
+    }
+    .block__title{ /* *** */
+        margin: 0 50px;
+        margin-top: 200px;
+
+    }
+    .block__text{ /* *** */
+        color: #5B5E6D;
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .block__btn{    /* *** */
+
+        margin: 0 auto;
+        margin-top: 30px;
+        
+    }
+    .opportunities__cell-title{
+        font-size: 58px;
+    }
+    #opportunity__cell2{
+        margin-left: 30px;
+    }
+    
+}
+
+
+@media(max-width:500px){
+    .review__block{
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+
+    }
+    .review__cell{
+        margin: 50px auto;
+    }
+    .header{
+        margin: 0 80px;
+    }
+    .btn1{
+        margin-right: 35px;
+    }
+    .carousel{
+        max-width: 700px;
+        max-height: 250px;
+    
+    }
+}
+
+
